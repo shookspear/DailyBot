@@ -8,7 +8,8 @@ A simple daily scheduler
 https://shookspear.github.io/DailyBot/
 
 ## Screenshot
-
+![DailyBot Event Tracker](images/screenshot.png)
+https://github.com/shookspear/DailyBot/blob/main/assets/images/screenshot.png
 
 ## Built With
 * HTML
