@@ -21,6 +21,9 @@
     <!-- added stylesheet for save icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
+    <!-- added stylesheet for on save alert -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -35,53 +38,55 @@
       <!-- Timeblocks go here -->
 
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">9AM</div>
-        <div class="col-10 future"><p></p></div>
+        <div class="col-1 pt-3 hour">9AM</div>
+        <div class="col-10 future eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">10AM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">10AM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">11AM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">11AM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">12PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">12PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">1PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">1PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">2PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">2PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">3PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">3PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">4PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">4PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
       <div class="row time-block">
-        <div class="col-1 pt-3 hour-top">5PM</div>
-        <div class="col-10 future pt-1"><p></p></div>
+        <div class="col-1 pt-3 hour">5PM</div>
+        <div class="col-10 future pt-1 eventArea"><p></p></div>
         <div class="col-1 saveBtn pt-4"><span class="material-symbols-outlined">save</span></div>
       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- added js library for on save alert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
