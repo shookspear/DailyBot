@@ -1,5 +1,5 @@
 # DailyBot
-Module 5 - Third-Party APIs Challenge: Work Day Scheduler
+Modeul 6 - Server-Side APIs Challenge: Weather Dashboard
 
 ## Description
 A simple daily scheduler
@@ -8,12 +8,12 @@ A simple daily scheduler
 https://shookspear.github.io/DailyBot/
 
 ## Screenshot
-![DailyBot Event Tracker](assets/images/screenshot.png)
+![Weather One](assets/images/screenshot.png)
 
 ## Built With
 * HTML
 * CSS
-* jQuery
+* Open Weather API
 
 
 
